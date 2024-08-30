@@ -1,0 +1,10 @@
+CREATE TABLE StockData (
+    Id SERIAL PRIMARY KEY,
+    Symbol VARCHAR(10) NOT NULL,
+    Time TIMESTAMP NOT NULL,
+    Open NUMERIC(18, 6),
+    High NUMERIC(18, 6),
+    Low NUMERIC(18, 6),
+    Close NUMERIC(18, 6),
+    Volume BIGINT
+);
